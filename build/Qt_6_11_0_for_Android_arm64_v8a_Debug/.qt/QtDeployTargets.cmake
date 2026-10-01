@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_AndroidTests_FILE D:/QT_Projects/AndroidTests/build/Qt_6_11_0_for_Android_arm64_v8a_Debug/libAndroidTests_arm64-v8a.so)
+set(__QT_DEPLOY_TARGET_AndroidTests_TYPE MODULE_LIBRARY)
