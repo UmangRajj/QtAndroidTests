@@ -16,6 +16,9 @@ class Widget : public QWidget
 public:
     explicit Widget(QWidget *parent = nullptr);
     ~Widget() override;
+public slots:
+    void startVibration();
+    void startToast();
 
 private:
     Ui::Widget *ui;
