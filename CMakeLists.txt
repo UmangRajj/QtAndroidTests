@@ -13,6 +13,9 @@ qt_add_executable(AndroidTests
     widget.ui
 )
 
+set_target_properties(AndroidTests PROPERTIES
+   QT_ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
+
 target_link_libraries(AndroidTests
     PRIVATE
         Qt::Core
